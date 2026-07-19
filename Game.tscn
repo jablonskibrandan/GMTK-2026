@@ -1,0 +1,165 @@
+[gd_scene format=3 uid="uid://bbc6jqk553mh2"]
+
+[ext_resource type="Script" uid="uid://vcxgqrg8i1b1" path="res://Player.gd" id="1_wbfu4"]
+[ext_resource type="Script" uid="uid://cnegol13dvn3c" path="res://door.gd" id="2_xkndl"]
+[ext_resource type="Script" uid="uid://mrfhs5jn6p0h" path="res://House.gd" id="3_u44n3"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wbfu4"]
+sky_top_color = Color(0.22581363, 0.5684212, 0.76015854, 1)
+sky_horizon_color = Color(0.8177886, 0.90195704, 0.94422096, 1)
+ground_bottom_color = Color(0.31582135, 0.30988762, 0.28720593, 1)
+ground_horizon_color = Color(0.8177886, 0.90195704, 0.94422096, 1)
+
+[sub_resource type="Sky" id="Sky_xkndl"]
+sky_material = SubResource("ProceduralSkyMaterial_wbfu4")
+
+[sub_resource type="Environment" id="Environment_u44n3"]
+background_mode = 2
+sky = SubResource("Sky_xkndl")
+tonemap_mode = 2
+
+[sub_resource type="BoxMesh" id="BoxMesh_xkndl"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u44n3"]
+albedo_color = Color(0.45323175, 0.45323175, 0.45323175, 1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_sb48q"]
+data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_t88pq"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r0x5m"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xkndl"]
+outline_size = 4
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_u44n3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sb48q"]
+transparency = 1
+albedo_color = Color(0.6212582, 0.2703127, 0.06455623, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_wbfu4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xkndl"]
+albedo_color = Color(0.51108557, 0.16932338, 0.06210079, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wbfu4"]
+albedo_color = Color(0.5598719, 0.22353712, 0.042279273, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_sb48q"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t88pq"]
+albedo_color = Color(0.50980395, 0.16862746, 0.0627451, 1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_r0x5m"]
+data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_3mrqo"]
+data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
+
+[node name="Node3D" type="Node3D" unique_id=1696854482]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=9496291]
+environment = SubResource("Environment_u44n3")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=263395090]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 7.603613, 0)
+
+[node name="SideWalk" type="MeshInstance3D" parent="." unique_id=1046927800]
+transform = Transform3D(31.512474, 0, 0, 0, 1, 0, 0, 0, 1.7975416, 0, 0, 0)
+mesh = SubResource("BoxMesh_xkndl")
+surface_material_override/0 = SubResource("StandardMaterial3D_u44n3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="SideWalk" unique_id=1616253144]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SideWalk/StaticBody3D" unique_id=2007200009]
+shape = SubResource("ConcavePolygonShape3D_sb48q")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=345562126]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6774328, 0)
+script = ExtResource("1_wbfu4")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=836516977]
+mesh = SubResource("CapsuleMesh_t88pq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=14234204]
+shape = SubResource("CapsuleShape3D_r0x5m")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D" unique_id=710173449]
+transform = Transform3D(1, 0, 0, 0, 0.9468684, 0.32162124, 0, -0.32162124, 0.9468684, 0, 3, 8)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1508362315]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=840694920]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -63.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+label_settings = SubResource("LabelSettings_xkndl")
+horizontal_alignment = 1
+uppercase = true
+
+[node name="House" type="Node3D" parent="." unique_id=1671767935]
+
+[node name="Door" type="MeshInstance3D" parent="House" unique_id=642000821]
+transform = Transform3D(2.4393647, 0, 0, 0, -3.0716887, 0, 0, 0, 0.22376889, 7.24349, 1.9878848, -0.96235013)
+mesh = SubResource("BoxMesh_u44n3")
+surface_material_override/0 = SubResource("StandardMaterial3D_sb48q")
+script = ExtResource("2_xkndl")
+
+[node name="BackWall" type="MeshInstance3D" parent="House" unique_id=547115331]
+transform = Transform3D(11.465376, 0, 0, 0, 3.8978746, 0, 0, 0, 0.22376883, 7.2680397, 2.2579436, -3.3878565)
+mesh = SubResource("BoxMesh_wbfu4")
+surface_material_override/0 = SubResource("StandardMaterial3D_xkndl")
+
+[node name="TransparentWalls" type="Node3D" parent="House" unique_id=1459981204]
+transform = Transform3D(4.5651445, 0, 0, 0, 1, 0, 0, 0, 0.22376889, 3.812477, 2.2579436, -0.96235013)
+script = ExtResource("3_u44n3")
+
+[node name="RightWall" type="MeshInstance3D" parent="House/TransparentWalls" unique_id=668542815]
+transform = Transform3D(0.99999994, 0, 0, 0, 3.8978744, 0, 0, 0, 0.9999997, 1.5167491, 0, 0)
+mesh = SubResource("BoxMesh_wbfu4")
+surface_material_override/0 = SubResource("StandardMaterial3D_xkndl")
+
+[node name="LeftWall" type="MeshInstance3D" parent="House/TransparentWalls" unique_id=1819084950]
+transform = Transform3D(1, 0, 0, 0, 3.8978748, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_wbfu4")
+surface_material_override/0 = SubResource("StandardMaterial3D_xkndl")
+
+[node name="HouseFloor" type="MeshInstance3D" parent="House" unique_id=959120180]
+transform = Transform3D(11.495024, 0, 0, 0, 0.99999994, 0, 0, 0, 2.4105902, 7.275672, 0, -2.1339488)
+mesh = SubResource("BoxMesh_xkndl")
+surface_material_override/0 = SubResource("StandardMaterial3D_wbfu4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="House/HouseFloor" unique_id=2106755287]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="House/HouseFloor/StaticBody3D" unique_id=1019224546]
+shape = SubResource("ConcavePolygonShape3D_sb48q")
+
+[node name="WallsWithCollision" type="Node3D" parent="House" unique_id=1768527256]
+
+[node name="LeftWall" type="MeshInstance3D" parent="House/WallsWithCollision" unique_id=489743541]
+transform = Transform3D(0.24177933, 0, 0, 0, 4.1740828, 0, 0, 0, 2.6025474, 12.957478, 2.1068523, -2.1593828)
+mesh = SubResource("BoxMesh_sb48q")
+surface_material_override/0 = SubResource("StandardMaterial3D_t88pq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="House/WallsWithCollision/LeftWall" unique_id=1195624971]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="House/WallsWithCollision/LeftWall/StaticBody3D" unique_id=268366785]
+shape = SubResource("ConcavePolygonShape3D_r0x5m")
+
+[node name="RightWall" type="MeshInstance3D" parent="House/WallsWithCollision" unique_id=1064719633]
+transform = Transform3D(0.24177933, 0, 0, 0, 4.174082, 0, 0, 0, 2.6025474, 1.6269507, 2.1068523, -2.1593828)
+mesh = SubResource("BoxMesh_sb48q")
+surface_material_override/0 = SubResource("StandardMaterial3D_t88pq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="House/WallsWithCollision/RightWall" unique_id=1837387349]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="House/WallsWithCollision/RightWall/StaticBody3D" unique_id=1743785751]
+shape = SubResource("ConcavePolygonShape3D_3mrqo")
