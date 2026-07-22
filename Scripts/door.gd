@@ -12,11 +12,11 @@ func _ready():
 func _process(_delta: float):
 	
 	if global_position.distance_squared_to(player.global_position) < 2:
-		textLabel.text = "press 'W' to use door"
+		textLabel.text = "press 'S' to use door"
 		textLabel.show()
 		Global.touchingDoor = 1
 		
-		if Input.is_action_just_pressed("W"):
+		if Input.is_action_just_pressed("down"):
 			if Global.inHouse == 0:
 				Global.inHouse = 1
 				player.position.z = -2

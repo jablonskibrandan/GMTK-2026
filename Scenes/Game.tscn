@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bbc6jqk553mh2"]
 
-[ext_resource type="Script" uid="uid://vcxgqrg8i1b1" path="res://Player.gd" id="1_wbfu4"]
-[ext_resource type="Script" uid="uid://cnegol13dvn3c" path="res://door.gd" id="2_xkndl"]
-[ext_resource type="Script" uid="uid://mrfhs5jn6p0h" path="res://House.gd" id="3_u44n3"]
+[ext_resource type="Script" uid="uid://vcxgqrg8i1b1" path="res://Scripts/Player.gd" id="1_wbfu4"]
+[ext_resource type="Script" uid="uid://cnegol13dvn3c" path="res://Scripts/door.gd" id="2_xkndl"]
+[ext_resource type="Script" uid="uid://mrfhs5jn6p0h" path="res://Scripts/House.gd" id="3_u44n3"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wbfu4"]
 sky_top_color = Color(0.22581363, 0.5684212, 0.76015854, 1)

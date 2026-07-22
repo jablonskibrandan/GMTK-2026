@@ -10,13 +10,12 @@ func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 
-	if Global.touchingDoor == 0 and Global.inHouse == 0:
-		if Input.is_action_just_pressed("W") and is_on_floor():
-			velocity.y = JUMP_VELOCITY
+	if Input.is_action_pressed("up") and Global.inHouse == 0 and is_on_floor():
+		velocity.y = JUMP_VELOCITY
 
-	if Input.is_action_pressed("A"):
+	if Input.is_action_pressed("left"):
 		position.x -= SPEED
-	if Input.is_action_pressed("D"):
+	if Input.is_action_pressed("right"):
 		position.x += SPEED
 
 	move_and_slide()
