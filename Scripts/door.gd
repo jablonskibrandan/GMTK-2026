@@ -3,7 +3,7 @@ extends MeshInstance3D
 var mat = StandardMaterial3D
 
 @onready var player := $"../../CharacterBody3D"
-@onready var textLabel := $"../../CanvasLayer/Label"
+@onready var textLabel := %Toast
 
 func _ready():
 	mat = get_active_material(0)
@@ -24,7 +24,7 @@ func _process(_delta: float):
 				Global.inHouse = 0
 				player.position.z = 0
 	else:
-		#textLabel.hide()
+		textLabel.hide()
 		Global.touchingDoor = 0
 		
 	if Global.inHouse == 1:

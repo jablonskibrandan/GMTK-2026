@@ -1,0 +1,170 @@
+[gd_scene format=3 uid="uid://cnbhbb4vlmxwx"]
+
+[ext_resource type="PackedScene" uid="uid://blw8lfsxrodoa" path="res://Scenes/RevolvingHallway/Assets/DuctRev.glb" id="1_p1kgj"]
+[ext_resource type="PackedScene" uid="uid://cmdrtbsbjtw3i" path="res://Scenes/RevolvingHallway/Assets/Rev.glb" id="2_h6euf"]
+[ext_resource type="Texture2D" uid="uid://oxtfq2yooi8m" path="res://Scenes/RevolvingHallway/Assets/RevTXT.png" id="3_n6dfc"]
+[ext_resource type="Texture2D" uid="uid://dmmqrsory8aku" path="res://Scenes/RevolvingHallway/Assets/roughnessRev.png" id="4_4tan4"]
+[ext_resource type="PackedScene" uid="uid://feifeb4qql3a" path="res://Scenes/RevolvingHallway/Assets/VentRev.glb" id="5_bp1bv"]
+[ext_resource type="Material" uid="uid://beidsqjl7bn67" path="res://ShaderOverlay/Ps1PixelateOverlay2.tres" id="7_bp1bv"]
+[ext_resource type="PackedScene" uid="uid://b38f5s486mbrb" path="res://PlayerModel/player_model.tscn" id="8_quonr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n6dfc"]
+albedo_color = Color(0.44291076, 0.44291076, 0.44291073, 1)
+metallic = 0.72
+roughness = 0.1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_quonr"]
+cull_mode = 1
+albedo_texture = ExtResource("3_n6dfc")
+metallic = 0.4
+roughness = 0.0
+roughness_texture = ExtResource("4_4tan4")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cjgtm"]
+cull_mode = 1
+albedo_texture = ExtResource("3_n6dfc")
+roughness_texture = ExtResource("4_4tan4")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ys8n8"]
+cull_mode = 1
+albedo_texture = ExtResource("3_n6dfc")
+metallic = 1.0
+roughness = 0.39
+roughness_texture = ExtResource("4_4tan4")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b5d84"]
+cull_mode = 1
+albedo_texture = ExtResource("3_n6dfc")
+metallic = 0.79
+roughness = 0.0
+
+[sub_resource type="Sky" id="Sky_n6dfc"]
+
+[sub_resource type="Environment" id="Environment_irq8t"]
+background_mode = 1
+sky = SubResource("Sky_n6dfc")
+ambient_light_source = 2
+ambient_light_color = Color(0.35531357, 0.35531357, 0.35531345, 1)
+
+[node name="RevolvingHallway" type="Node3D" unique_id=653928437]
+
+[node name="Assets" type="Node3D" parent="." unique_id=2053618585]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
+
+[node name="DuctRev" parent="Assets" unique_id=147975444 instance=ExtResource("1_p1kgj")]
+
+[node name="Cylinder" parent="Assets/DuctRev" index="0" unique_id=559146686]
+surface_material_override/0 = SubResource("StandardMaterial3D_n6dfc")
+
+[node name="Rev" parent="Assets" unique_id=1554174976 instance=ExtResource("2_h6euf")]
+
+[node name="Revolving Hallway" parent="Assets/Rev" index="0" unique_id=2028189047]
+surface_material_override/0 = SubResource("StandardMaterial3D_quonr")
+surface_material_override/1 = SubResource("StandardMaterial3D_cjgtm")
+surface_material_override/2 = SubResource("StandardMaterial3D_ys8n8")
+surface_material_override/3 = SubResource("StandardMaterial3D_b5d84")
+
+[node name="VentRev" parent="Assets" unique_id=1737832988 instance=ExtResource("5_bp1bv")]
+
+[node name="Lights" type="Node3D" parent="." unique_id=1994988107]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Lights" unique_id=1468968932]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 8, 22)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="Lights" unique_id=1953641134]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 10, 8, 19)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="Lights" unique_id=1407685991]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 18, 8, 12)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D4" type="SpotLight3D" parent="Lights" unique_id=441095519]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 21, 8, 2)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D5" type="SpotLight3D" parent="Lights" unique_id=871691375]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 20, 8, -8)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D6" type="SpotLight3D" parent="Lights" unique_id=1168501548]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 14, 8, -16)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D7" type="SpotLight3D" parent="Lights" unique_id=1124432536]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 5, 8, -20)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D8" type="SpotLight3D" parent="Lights" unique_id=867486578]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -5, 8, -20)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D9" type="SpotLight3D" parent="Lights" unique_id=964765362]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -13, 7, -16)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D10" type="SpotLight3D" parent="Lights" unique_id=1388913582]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -19, 7, -9)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D11" type="SpotLight3D" parent="Lights" unique_id=675462154]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -21, 7, 0)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D12" type="SpotLight3D" parent="Lights" unique_id=2138621904]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -19, 7, 9)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="SpotLight3D13" type="SpotLight3D" parent="Lights" unique_id=158945913]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -14, 7, 16)
+light_energy = 16.0
+spot_range = 25.0
+spot_angle = 25.512815
+
+[node name="Test Camera" type="Camera3D" parent="." unique_id=105395831]
+transform = Transform3D(1, 0, 0, 0, 0.9920873, 0.1255502, 0, -0.1255502, 0.9920873, -0.10746813, 8.122488, 45.1121)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=976854469]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=708656004]
+material = ExtResource("7_bp1bv")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayerModel" parent="." unique_id=338209959 instance=ExtResource("8_quonr")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.164, 0.235, 32.856)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=579278557]
+environment = SubResource("Environment_irq8t")
+
+[editable path="Assets/DuctRev"]
+[editable path="Assets/Rev"]

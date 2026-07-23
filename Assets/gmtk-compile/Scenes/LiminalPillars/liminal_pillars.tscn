@@ -1,0 +1,93 @@
+[gd_scene format=3 uid="uid://b63o8sw2n7c0m"]
+
+[ext_resource type="PackedScene" uid="uid://dfk4swtjal5pf" path="res://Scenes/LiminalPillars/Assets/LiminalPillars.glb" id="1_kqhst"]
+[ext_resource type="PackedScene" uid="uid://5gmilw4ger24" path="res://LevelTransition/LevelDoor2/level_door_2.tscn" id="2_wp5dx"]
+[ext_resource type="Material" uid="uid://beidsqjl7bn67" path="res://ShaderOverlay/Ps1PixelateOverlay2.tres" id="3_ks85a"]
+[ext_resource type="Script" uid="uid://bu5eefshtkha" path="res://ShaderOverlay/test_camera.gd" id="4_ob6xy"]
+[ext_resource type="Texture2D" uid="uid://34ftxnfl7yqp" path="res://Scenes/CleanHall001/Assets/autoshop_01_4k.exr" id="5_5cp2i"]
+[ext_resource type="PackedScene" uid="uid://b38f5s486mbrb" path="res://PlayerModel/player_model.tscn" id="6_yy663"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wp5dx"]
+roughness = 0.0
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_irq8t"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0iwtj"]
+transparency = 1
+albedo_color = Color(0, 0, 0, 0.6431373)
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_5qu3w"]
+panorama = ExtResource("5_5cp2i")
+
+[sub_resource type="Sky" id="Sky_kqhst"]
+sky_material = SubResource("PanoramaSkyMaterial_5qu3w")
+
+[sub_resource type="Environment" id="Environment_grxcc"]
+background_mode = 1
+background_energy_multiplier = 1.15
+sky = SubResource("Sky_kqhst")
+sky_rotation = Vector3(-0.27052602, 4.21497, 2.7576203)
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+reflected_light_source = 2
+
+[node name="LiminalPillars" type="Node3D" unique_id=1160633616]
+
+[node name="LiminalPillars" parent="." unique_id=1903080391 instance=ExtResource("1_kqhst")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.92308, 0, 0)
+
+[node name="FloorDistanceFake" parent="LiminalPillars" index="0" unique_id=1277507564]
+surface_material_override/0 = SubResource("StandardMaterial3D_wp5dx")
+
+[node name="Lights" type="Node3D" parent="." unique_id=1476612206]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Lights" unique_id=1271747136]
+transform = Transform3D(1, 0, 0, 0, 0.3975344, 0.9175873, 0, -0.9175873, 0.3975344, 0, 19.32851, 0)
+
+[node name="ShadowLayer1" type="MeshInstance3D" parent="Lights" unique_id=2035538529]
+transform = Transform3D(55.31, 0, 0, 0, -4.371139e-08, -6.75, 0, 1, -2.9505188e-07, 0, 5.11, -83.36394)
+mesh = SubResource("PlaneMesh_irq8t")
+surface_material_override/0 = SubResource("StandardMaterial3D_0iwtj")
+
+[node name="ShadowLayer2" type="MeshInstance3D" parent="Lights" unique_id=526852104]
+transform = Transform3D(55.31, 0, 0, 0, -4.371139e-08, -6.75, 0, 1, -2.9505188e-07, 0, 5.11, -108.61653)
+mesh = SubResource("PlaneMesh_irq8t")
+surface_material_override/0 = SubResource("StandardMaterial3D_0iwtj")
+
+[node name="ShadowLayer3" type="MeshInstance3D" parent="Lights" unique_id=501517334]
+transform = Transform3D(55.31, 0, 0, 0, -4.371139e-08, -6.75, 0, 1, -2.9505188e-07, 0, 5.11, -132.18427)
+mesh = SubResource("PlaneMesh_irq8t")
+surface_material_override/0 = SubResource("StandardMaterial3D_0iwtj")
+
+[node name="Interactables" type="Node3D" parent="." unique_id=1875329609]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.708408, 0, -2.6741967)
+
+[node name="LevelDoor2" parent="Interactables" unique_id=4278880 instance=ExtResource("2_wp5dx")]
+transform = Transform3D(0.99983793, 0.017841924, -0.002409392, -0.017844431, 0.99984026, -0.0010236991, 0.0023907456, 0.0010665201, 0.9999966, -33.398808, 0.6069889, 0.29800034)
+
+[node name="LevelDoor3" parent="Interactables" unique_id=643972592 instance=ExtResource("2_wp5dx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 74.85417, 0.6069889, 0.29800034)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1090441055]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=766938768]
+material = ExtResource("3_ks85a")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Test Camera" type="Camera3D" parent="." unique_id=1004403947]
+transform = Transform3D(1, 0, 0, 0, 0.9381342, 0.34627196, 0, -0.34627196, 0.9381342, -2.2478266, 4.6580343, 3.486102)
+script = ExtResource("4_ob6xy")
+distance = 30.0
+speed = 0.5
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=31648931]
+environment = SubResource("Environment_grxcc")
+
+[node name="PlayerModel" parent="." unique_id=338209959 instance=ExtResource("6_yy663")]
+transform = Transform3D(-4.3711385e-08, 0, 0.99999994, 0, 1, 0, -0.99999994, 0, -4.3711385e-08, 0, 0.79427624, -1.8423924)
+
+[editable path="LiminalPillars"]

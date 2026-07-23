@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://b38f5s486mbrb"]
+
+[ext_resource type="PackedScene" uid="uid://tlnqbkftsdg2" path="res://PlayerModel/Model/Character.glb" id="1_3671e"]
+[ext_resource type="Texture2D" uid="uid://dcghkfrru0t34" path="res://PlayerModel/Model/Character_Astronaut.png" id="2_eslde"]
+[ext_resource type="Texture2D" uid="uid://b3subtugq8ob7" path="res://PlayerModel/Model/Character_Astronaut_Baked_DIFFUSE_1024.png" id="3_wasry"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hv5ub"]
+albedo_texture = ExtResource("2_eslde")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eslde"]
+albedo_texture = ExtResource("3_wasry")
+
+[node name="PlayerModel" type="Node3D" unique_id=338209959]
+
+[node name="Character" parent="." unique_id=287802781 instance=ExtResource("1_3671e")]
+
+[node name="AstronautJaneDoe_001" parent="Character/Armature/Skeleton3D" parent_id_path=PackedInt32Array(287802781, 94417780) index="0" unique_id=1772571416]
+surface_material_override/0 = SubResource("StandardMaterial3D_hv5ub")
+surface_material_override/1 = SubResource("StandardMaterial3D_eslde")
+
+[editable path="Character"]

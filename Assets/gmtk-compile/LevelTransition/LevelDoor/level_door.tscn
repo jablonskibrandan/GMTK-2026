@@ -1,0 +1,109 @@
+[gd_scene format=3 uid="uid://dsi77vhxoyaso"]
+
+[ext_resource type="PackedScene" uid="uid://dbs78kbnno1cc" path="res://LevelTransition/LevelDoor/Assets/HeroDoor.glb" id="1_7le7x"]
+[ext_resource type="Texture2D" uid="uid://brtmw6wx076st" path="res://LevelTransition/LevelDoor/Textures/door.png" id="2_gfax3"]
+[ext_resource type="PackedScene" uid="uid://cqve5bxsgwhbm" path="res://LevelTransition/LevelDoor/Assets/HeroDoorframe.glb" id="3_gcy0j"]
+[ext_resource type="Texture2D" uid="uid://71sm6jpfih1g" path="res://LevelTransition/LevelDoor/Textures/doorframe.png" id="4_q2ogw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wocdr"]
+cull_mode = 2
+albedo_texture = ExtResource("2_gfax3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o05a0"]
+albedo_texture = ExtResource("2_gfax3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n7pc6"]
+cull_mode = 2
+albedo_texture = ExtResource("2_gfax3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6g34j"]
+cull_mode = 2
+albedo_texture = ExtResource("2_gfax3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hjfcl"]
+cull_mode = 2
+albedo_texture = ExtResource("2_gfax3")
+
+[sub_resource type="SphereMesh" id="SphereMesh_irq8t"]
+radius = 1.2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0iwtj"]
+albedo_color = Color(0.2147016, 0.12541133, 0.01312066, 1)
+emission_enabled = true
+emission = Color(0.715938, 0.47120166, 9.62615e-07, 1)
+emission_energy_multiplier = 7.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lhf86"]
+albedo_texture = ExtResource("4_q2ogw")
+metallic = 1.0
+metallic_specular = 1.0
+roughness = 0.75
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tvwol"]
+albedo_texture = ExtResource("4_q2ogw")
+metallic = 1.0
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ppi4x"]
+size = Vector2(2.315, 1.71)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_odvba"]
+transparency = 1
+blend_mode = 3
+cull_mode = 2
+albedo_color = Color(0, 0, 0, 0.54901963)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_irq8t"]
+transparency = 3
+alpha_hash_scale = 1.0
+alpha_antialiasing_mode = 0
+blend_mode = 3
+cull_mode = 2
+depth_draw_mode = 1
+albedo_color = Color(0, 0, 0, 0.45882353)
+
+[node name="LevelDoor" type="Node3D" unique_id=1644170752]
+
+[node name="HeroDoor" parent="." unique_id=1154826242 instance=ExtResource("1_7le7x")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="door_001" parent="HeroDoor" index="0" unique_id=428797713]
+transform = Transform3D(0.09128405, 0, 0, 0, 1.1679235, 0, 0, 0, 1.1679235, 0, 1.2, 0)
+surface_material_override/0 = SubResource("StandardMaterial3D_wocdr")
+surface_material_override/1 = SubResource("StandardMaterial3D_o05a0")
+surface_material_override/2 = SubResource("StandardMaterial3D_n7pc6")
+surface_material_override/3 = SubResource("StandardMaterial3D_6g34j")
+surface_material_override/4 = SubResource("StandardMaterial3D_hjfcl")
+
+[node name="Light" type="MeshInstance3D" parent="HeroDoor/door_001" index="0" unique_id=884884944]
+transform = Transform3D(-4.0702268e-08, -0.9311594, 0, 0.07277875, -3.18126e-09, 0, 0, 0, 0.07277875, 0, 0.6164788, 0)
+mesh = SubResource("SphereMesh_irq8t")
+surface_material_override/0 = SubResource("StandardMaterial3D_0iwtj")
+
+[node name="HeroDoorframe" parent="." unique_id=261049052 instance=ExtResource("3_gcy0j")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="doorframe_001" parent="HeroDoorframe" index="0" unique_id=28658504]
+transform = Transform3D(0.09892812, 0, 0, 0, 1.2657248, 0, 0, 0, 1.2657248, 0, 1.2, 0)
+surface_material_override/0 = SubResource("StandardMaterial3D_lhf86")
+surface_material_override/1 = SubResource("StandardMaterial3D_tvwol")
+
+[node name="Transition" type="Node3D" parent="." unique_id=1912123703]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="TransitionMesh" type="MeshInstance3D" parent="Transition" unique_id=733536980]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0, 1.2, 0)
+mesh = SubResource("PlaneMesh_ppi4x")
+surface_material_override/0 = SubResource("StandardMaterial3D_odvba")
+
+[node name="TransitionMesh2" type="MeshInstance3D" parent="Transition" unique_id=1286613410]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0.001, 1.2, 0)
+mesh = SubResource("PlaneMesh_ppi4x")
+surface_material_override/0 = SubResource("StandardMaterial3D_irq8t")
+
+[node name="TransitionMesh3" type="MeshInstance3D" parent="Transition" unique_id=1268474250]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -0.001, 1.2, 0)
+mesh = SubResource("PlaneMesh_ppi4x")
+surface_material_override/0 = SubResource("StandardMaterial3D_irq8t")
+
+[editable path="HeroDoor"]
+[editable path="HeroDoorframe"]

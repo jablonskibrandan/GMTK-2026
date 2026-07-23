@@ -3,7 +3,9 @@
 [ext_resource type="Script" uid="uid://vcxgqrg8i1b1" path="res://Scripts/Player.gd" id="1_wbfu4"]
 [ext_resource type="Script" uid="uid://dh5lwx8hbw4oc" path="res://Scripts/Gameplay/player_health.gd" id="2_7lihs"]
 [ext_resource type="Script" uid="uid://c17q6lyphdfi6" path="res://Scripts/UI/hud.gd" id="2_b2bpf"]
+[ext_resource type="Script" uid="uid://cnegol13dvn3c" path="res://Scripts/door.gd" id="2_xkndl"]
 [ext_resource type="FontFile" uid="uid://csu6nkgk2n2pv" path="res://Fonts/Aquire-BW0ox.otf" id="3_b2bpf"]
+[ext_resource type="PackedScene" uid="uid://b38f5s486mbrb" path="res://Assets/PlayerModel/player_model.tscn" id="3_bf53h"]
 [ext_resource type="Script" uid="uid://mrfhs5jn6p0h" path="res://Scripts/House.gd" id="3_u44n3"]
 [ext_resource type="Script" uid="uid://blsf2p5nbpea7" path="res://Scripts/Gameplay/oxygen_meter.gd" id="5_7lihs"]
 [ext_resource type="Script" uid="uid://by8hp8y0tcpge" path="res://Scripts/Gameplay/game_manager.gd" id="7_fgofq"]
@@ -30,9 +32,8 @@ albedo_color = Color(0.45323175, 0.45323175, 0.45323175, 1)
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_sb48q"]
 data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_t88pq"]
-
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r0x5m"]
+height = 2.8652344
 
 [sub_resource type="BoxMesh" id="BoxMesh_u44n3"]
 
@@ -81,17 +82,19 @@ shape = SubResource("ConcavePolygonShape3D_sb48q")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6774328, 0)
 script = ExtResource("1_wbfu4")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=836516977]
-mesh = SubResource("CapsuleMesh_t88pq")
-
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=14234204]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4326172, 0)
 shape = SubResource("CapsuleShape3D_r0x5m")
 
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D" unique_id=710173449]
 transform = Transform3D(1, 0, 0, 0, 0.9468684, 0.32162124, 0, -0.32162124, 0.9468684, 0, 3, 8)
 
-[node name="Node" type="Node" parent="CharacterBody3D" unique_id=1936900856]
+[node name="Health Script" type="Node" parent="CharacterBody3D" unique_id=1936900856]
 script = ExtResource("2_7lihs")
+
+[node name="PlayerModel" parent="CharacterBody3D" unique_id=338209959 instance=ExtResource("3_bf53h")]
+unique_name_in_owner = true
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, -1, 0)
 
 [node name="HUD" type="CanvasLayer" parent="." unique_id=1508362315 node_paths=PackedStringArray("oxygen_bar", "oxygen_label", "health_bar", "health_label")]
 layer = 10
@@ -149,6 +152,22 @@ layout_mode = 2
 value = 100.0
 show_percentage = false
 
+[node name="Toast" type="Label" parent="HUD/HUDRoot" unique_id=1700109947]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -21.5
+offset_top = -23.0
+offset_right = 21.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 24
+text = "Toast"
+
 [node name="HealthBar" type="ProgressBar" parent="HUD" unique_id=484148859]
 custom_minimum_size = Vector2(500, 52)
 offset_left = 216.0
@@ -164,6 +183,7 @@ show_percentage = false
 transform = Transform3D(2.4393647, 0, 0, 0, -3.0716887, 0, 0, 0, 0.22376889, 7.24349, 1.9878848, -0.96235013)
 mesh = SubResource("BoxMesh_u44n3")
 surface_material_override/0 = SubResource("StandardMaterial3D_sb48q")
+script = ExtResource("2_xkndl")
 
 [node name="BackWall" type="MeshInstance3D" parent="House" unique_id=547115331]
 transform = Transform3D(11.465376, 0, 0, 0, 3.8978746, 0, 0, 0, 0.22376883, 7.2680397, 2.2579436, -3.3878565)
@@ -223,7 +243,7 @@ drain_per_second = 0.2
 [node name="GameManager" type="Node" parent="." unique_id=1712901498 node_paths=PackedStringArray("oxygen", "player_health")]
 script = ExtResource("7_fgofq")
 oxygen = NodePath("../OxygenMeter")
-player_health = NodePath("../CharacterBody3D/Node")
+player_health = NodePath("../CharacterBody3D/Health Script")
 
 [connection signal="oxygen_changed" from="OxygenMeter" to="HUD" method="update_oxygen"]
 [connection signal="oxygen_depleted" from="OxygenMeter" to="HUD" method="show_depleted"]

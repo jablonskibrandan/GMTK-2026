@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://5gmilw4ger24"]
+
+[ext_resource type="PackedScene" uid="uid://ct0olcllc8uc" path="res://LevelTransition/LevelDoor2/Assets/CleanDoor.glb" id="1_p8c8h"]
+[ext_resource type="PackedScene" uid="uid://dapwt2scl8spw" path="res://LevelTransition/LevelDoor2/Assets/CleanDoorframe.glb" id="2_daexn"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_e3pxe"]
+size = Vector2(2.315, 1.71)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ene2o"]
+transparency = 1
+blend_mode = 3
+cull_mode = 2
+albedo_color = Color(0, 0, 0, 0.54901963)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_86liv"]
+transparency = 3
+alpha_hash_scale = 1.0
+alpha_antialiasing_mode = 0
+blend_mode = 3
+cull_mode = 2
+depth_draw_mode = 1
+albedo_color = Color(0, 0, 0, 0.45882353)
+
+[node name="LevelDoor2" type="Node3D" unique_id=4278880]
+
+[node name="CleanDoor" parent="." unique_id=142372897 instance=ExtResource("1_p8c8h")]
+
+[node name="CleanDoorframe" parent="." unique_id=129882252 instance=ExtResource("2_daexn")]
+
+[node name="Transition" type="Node3D" parent="." unique_id=1051383720]
+transform = Transform3D(2.685, 0, 0, 0, 2.685, 0, 0, 0, 2.685, 0, 0, 0)
+
+[node name="TransitionMesh" type="MeshInstance3D" parent="Transition" unique_id=109589267]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0, 1.2, 0)
+mesh = SubResource("PlaneMesh_e3pxe")
+surface_material_override/0 = SubResource("StandardMaterial3D_ene2o")
+
+[node name="TransitionMesh2" type="MeshInstance3D" parent="Transition" unique_id=2140169751]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0.001, 1.2, 0)
+mesh = SubResource("PlaneMesh_e3pxe")
+surface_material_override/0 = SubResource("StandardMaterial3D_86liv")
+
+[node name="TransitionMesh3" type="MeshInstance3D" parent="Transition" unique_id=1845106763]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -0.001, 1.2, 0)
+mesh = SubResource("PlaneMesh_e3pxe")
+surface_material_override/0 = SubResource("StandardMaterial3D_86liv")

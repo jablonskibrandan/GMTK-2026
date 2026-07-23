@@ -1,0 +1,99 @@
+[gd_scene format=3 uid="uid://cm6wvlsntdohe"]
+
+[ext_resource type="PackedScene" uid="uid://wn1a0574j711" path="res://Scenes/Catwalk/Assets/Catwalk.glb" id="1_lxldf"]
+[ext_resource type="PackedScene" uid="uid://dsi77vhxoyaso" path="res://LevelTransition/LevelDoor/level_door.tscn" id="1_s7ajr"]
+[ext_resource type="PackedScene" uid="uid://bfi33dvct3bi4" path="res://Scenes/Catwalk/Assets/BlackBox.glb" id="2_07t7h"]
+[ext_resource type="Material" uid="uid://beidsqjl7bn67" path="res://ShaderOverlay/Ps1PixelateOverlay2.tres" id="3_07t7h"]
+[ext_resource type="Script" uid="uid://bu5eefshtkha" path="res://ShaderOverlay/test_camera.gd" id="3_paahl"]
+[ext_resource type="PackedScene" uid="uid://b38f5s486mbrb" path="res://PlayerModel/player_model.tscn" id="6_n8m5y"]
+
+[sub_resource type="Sky" id="Sky_wy4ev"]
+
+[sub_resource type="Environment" id="Environment_s7ajr"]
+background_mode = 1
+sky = SubResource("Sky_wy4ev")
+ambient_light_source = 2
+ambient_light_color = Color(0.35531357, 0.35531357, 0.35531345, 1)
+
+[node name="CatwalkScene" type="Node3D" unique_id=1778927202]
+
+[node name="Lights" type="Node3D" parent="." unique_id=1103803832]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Lights" unique_id=1937008958]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.3763247, 19.52237)
+light_color = Color(9.62615e-07, 0.72447556, 0.7275459, 1)
+light_energy = 0.045
+light_indirect_energy = 0.0
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Lights" unique_id=894049920]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -37.853844, 11.524663, 0)
+light_energy = 350.0
+spot_range = 10.0
+spot_angle = 40.0
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="Lights" unique_id=301951104]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -26.373047, 11.524663, 0)
+light_energy = 350.0
+spot_range = 10.0
+spot_angle = 40.0
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="Lights" unique_id=990123482]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -17.753874, 11.524663, 0)
+light_energy = 350.0
+spot_range = 10.0
+spot_angle = 40.0
+
+[node name="SpotLight3D4" type="SpotLight3D" parent="Lights" unique_id=1925605100]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 8.246169, 11.524663, 0)
+light_energy = 350.0
+spot_range = 10.0
+spot_angle = 40.0
+
+[node name="SpotLight3D5" type="SpotLight3D" parent="Lights" unique_id=476211298]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 18.992859, 11.524663, 0)
+light_energy = 350.0
+spot_range = 10.0
+spot_angle = 40.0
+
+[node name="SpotLight3D6" type="SpotLight3D" parent="Lights" unique_id=1196267982]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 27.190622, 11.524663, 0)
+light_energy = 350.0
+spot_range = 10.0
+spot_angle = 40.0
+
+[node name="Interactable" type="Node3D" parent="." unique_id=729955424]
+
+[node name="LevelTransition" type="Node3D" parent="Interactable" unique_id=428105694]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.45, 4.156, 1.425)
+
+[node name="LevelDoor" parent="Interactable/LevelTransition" unique_id=1644170752 instance=ExtResource("1_s7ajr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.256138, 0, -1.2832685)
+
+[node name="LevelDoor2" parent="Interactable/LevelTransition" unique_id=227157059 instance=ExtResource("1_s7ajr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.55297, 0, -1.283)
+
+[node name="Catwalk" parent="." unique_id=1933768781 instance=ExtResource("1_lxldf")]
+
+[node name="BlackBox" parent="." unique_id=1260437484 instance=ExtResource("2_07t7h")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1163811896]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=2059702774]
+material = ExtResource("3_07t7h")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Test Camera" type="Camera3D" parent="." unique_id=1594971954]
+transform = Transform3D(1, 0, 0, 0, 0.9369987, 0.34933287, 0, -0.34933287, 0.9369987, 4.0295677, 6.979208, 7.9199343)
+script = ExtResource("3_paahl")
+distance = 30.0
+speed = 0.5
+
+[node name="PlayerModel" parent="." unique_id=338209959 instance=ExtResource("6_n8m5y")]
+transform = Transform3D(-4.3711385e-08, 0, 0.99999994, 0, 1, 0, -0.99999994, 0, -4.3711385e-08, 0, 4.235, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=547352084]
+environment = SubResource("Environment_s7ajr")

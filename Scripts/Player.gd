@@ -3,7 +3,7 @@ extends CharacterBody3D
 
 var SPEED = 0.1
 const JUMP_VELOCITY = 4.5
-
+@onready var playerModel := %PlayerModel
 
 func _physics_process(delta: float) -> void:
 
@@ -15,7 +15,9 @@ func _physics_process(delta: float) -> void:
 
 	if Input.is_action_pressed("left"):
 		position.x -= SPEED
+		playerModel.scale.z = -1 # inverse model to look back
 	if Input.is_action_pressed("right"):
 		position.x += SPEED
+		playerModel.scale.z = 1
 
 	move_and_slide()

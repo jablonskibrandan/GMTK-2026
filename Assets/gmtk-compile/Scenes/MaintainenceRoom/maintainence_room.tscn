@@ -1,0 +1,130 @@
+[gd_scene format=3 uid="uid://cacmjcpafh6f1"]
+
+[ext_resource type="PackedScene" uid="uid://kfqa1swrver8" path="res://Scenes/MaintainenceRoom/Assets/MaintainenceRoom.glb" id="1_hxdvp"]
+[ext_resource type="Texture2D" uid="uid://dkjktyllobt8u" path="res://Scenes/MaintainenceRoom/Assets/MaRoom.png" id="2_arsd1"]
+[ext_resource type="PackedScene" uid="uid://c0uypobw8w11l" path="res://Scenes/MaintainenceRoom/Assets/MaintainenceSupplies.glb" id="3_fmcax"]
+[ext_resource type="Script" uid="uid://bu5eefshtkha" path="res://ShaderOverlay/test_camera.gd" id="4_aad5g"]
+[ext_resource type="PackedScene" uid="uid://dsi77vhxoyaso" path="res://LevelTransition/LevelDoor/level_door.tscn" id="4_arsd1"]
+[ext_resource type="PackedScene" uid="uid://b38f5s486mbrb" path="res://PlayerModel/player_model.tscn" id="5_eoiqf"]
+[ext_resource type="Material" uid="uid://beidsqjl7bn67" path="res://ShaderOverlay/Ps1PixelateOverlay2.tres" id="6_fmcax"]
+[ext_resource type="Texture2D" uid="uid://34ftxnfl7yqp" path="res://Scenes/CleanHall001/Assets/autoshop_01_4k.exr" id="6_oh1i4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8ixje"]
+cull_mode = 1
+albedo_texture = ExtResource("2_arsd1")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_atixr"]
+cull_mode = 1
+albedo_texture = ExtResource("2_arsd1")
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_0h6ff"]
+panorama = ExtResource("6_oh1i4")
+
+[sub_resource type="Sky" id="Sky_x8s1n"]
+sky_material = SubResource("PanoramaSkyMaterial_0h6ff")
+
+[sub_resource type="Environment" id="Environment_1c4c4"]
+background_mode = 1
+background_energy_multiplier = 1.15
+sky = SubResource("Sky_x8s1n")
+sky_rotation = Vector3(-0.05235988, -0.9599311, 0.06981317)
+ambient_light_source = 1
+ambient_light_color = Color(1, 1, 1, 1)
+reflected_light_source = 2
+
+[node name="MaintainenceRoom" type="Node3D" unique_id=1088265719]
+
+[node name="Assets" type="Node3D" parent="." unique_id=706585243]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="MaintainenceRoom2" parent="Assets" unique_id=2032935787 instance=ExtResource("1_hxdvp")]
+
+[node name="MaintainenceRoom" parent="Assets/MaintainenceRoom2" index="0" unique_id=1217691585]
+surface_material_override/0 = SubResource("StandardMaterial3D_8ixje")
+surface_material_override/1 = SubResource("StandardMaterial3D_atixr")
+
+[node name="MaintainenceSupplies" parent="Assets" unique_id=869937413 instance=ExtResource("3_fmcax")]
+
+[node name="Lights" type="Node3D" parent="." unique_id=1674701828]
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Lights" unique_id=1059900299]
+transform = Transform3D(1, 0, 0, 0, 0.258819, 0.9659258, 0, -0.9659258, 0.258819, -13.394362, 10, 0)
+light_color = Color(0.9843137, 0.8235294, 0.6666667, 1)
+light_energy = 16.0
+spot_range = 12.0
+spot_angle = 42.8206
+
+[node name="SpotLight3D7" type="SpotLight3D" parent="Lights" unique_id=1459792887]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -3.3943624, 10, 3)
+light_color = Color(0.9843137, 0.8235294, 0.6666667, 1)
+light_energy = 16.0
+spot_range = 12.0
+spot_angle = 34.307297
+
+[node name="SpotLight3D4" type="SpotLight3D" parent="Lights" unique_id=89146179]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 5, 10, -1)
+light_color = Color(0.9843137, 0.8235294, 0.6666667, 1)
+light_energy = 3.885
+spot_range = 12.0
+spot_angle = 48.013607
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="Lights" unique_id=1059731866]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -22, 10, -3)
+light_color = Color(0.9843137, 0.8235294, 0.6666667, 1)
+light_energy = 16.0
+spot_range = 12.0
+spot_angle = 38.907646
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="Lights" unique_id=1424615478]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -3, 10, -3)
+light_color = Color(0.9843137, 0.8235294, 0.6666667, 1)
+light_energy = 1.12
+spot_range = 12.0
+spot_angle = 45.057766
+
+[node name="SpotLight3D5" type="SpotLight3D" parent="Lights" unique_id=554051898]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 15, 10, -4)
+light_color = Color(0.9843137, 0.8235294, 0.6666667, 1)
+light_energy = 16.0
+spot_range = 12.0
+spot_angle = 38.907646
+
+[node name="SpotLight3D6" type="SpotLight3D" parent="Lights" unique_id=1517012117]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 22, 10, 2)
+light_color = Color(0.9843137, 0.8235294, 0.6666667, 1)
+light_energy = 16.0
+spot_range = 12.0
+spot_angle = 38.907646
+
+[node name="Interactable" type="Node3D" parent="." unique_id=1214482742]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="LevelDoor" parent="Interactable" unique_id=1644170752 instance=ExtResource("4_arsd1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.94, -1.01, 1.915)
+
+[node name="LevelDoor2" parent="Interactable" unique_id=1061011040 instance=ExtResource("4_arsd1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.915, -1.01, 1.915)
+
+[node name="Test Camera" type="Camera3D" parent="." unique_id=401842471]
+transform = Transform3D(1, 0, 0, 0, 0.93374133, 0.35794857, 0, -0.35794857, 0.93374133, -0.9704323, 6.41008, 8.919934)
+script = ExtResource("4_aad5g")
+distance = 30.0
+speed = 0.5
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2088722486]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=756098938]
+material = ExtResource("6_fmcax")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayerModel" parent="." unique_id=338209959 instance=ExtResource("5_eoiqf")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -18.521, 0.166, 1.939)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=928656211]
+environment = SubResource("Environment_1c4c4")
+
+[editable path="Assets/MaintainenceRoom2"]

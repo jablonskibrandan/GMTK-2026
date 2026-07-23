@@ -1,0 +1,165 @@
+[gd_scene format=3 uid="uid://bpmpra5pqqgde"]
+
+[ext_resource type="PackedScene" uid="uid://bie5gdb267fph" path="res://Scenes/Lab/Assets/Lab.glb" id="1_fm3af"]
+[ext_resource type="PackedScene" uid="uid://5gmilw4ger24" path="res://LevelTransition/LevelDoor2/level_door_2.tscn" id="2_na2yv"]
+[ext_resource type="Material" uid="uid://beidsqjl7bn67" path="res://ShaderOverlay/Ps1PixelateOverlay2.tres" id="3_3swqn"]
+[ext_resource type="Script" uid="uid://bu5eefshtkha" path="res://ShaderOverlay/test_camera.gd" id="4_ekcu4"]
+[ext_resource type="Texture2D" uid="uid://34ftxnfl7yqp" path="res://Scenes/CleanHall001/Assets/autoshop_01_4k.exr" id="5_ud53k"]
+[ext_resource type="PackedScene" uid="uid://b38f5s486mbrb" path="res://PlayerModel/player_model.tscn" id="6_467kd"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_wr7x6"]
+panorama = ExtResource("5_ud53k")
+
+[sub_resource type="Sky" id="Sky_1qv82"]
+sky_material = SubResource("PanoramaSkyMaterial_wr7x6")
+
+[sub_resource type="Environment" id="Environment_ueg30"]
+background_mode = 1
+background_energy_multiplier = 1.15
+sky = SubResource("Sky_1qv82")
+sky_rotation = Vector3(-0.05235988, -0.9599311, 0.06981317)
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+reflected_light_source = 2
+
+[node name="Lab" type="Node3D" unique_id=359289271]
+
+[node name="Lab" parent="." unique_id=2059896923 instance=ExtResource("1_fm3af")]
+metadata/_edit_lock_ = true
+
+[node name="floor_002" parent="Lab" index="0" unique_id=43097724]
+metadata/_edit_lock_ = true
+
+[node name="FakeFloorPlane" parent="Lab" index="1" unique_id=356832210]
+metadata/_edit_lock_ = true
+
+[node name="Desks" parent="Lab" index="2" unique_id=1178884714]
+metadata/_edit_lock_ = true
+
+[node name="Walls" parent="Lab" index="3" unique_id=2116272484]
+metadata/_edit_lock_ = true
+
+[node name="Cabinet" parent="Lab" index="4" unique_id=2082120071]
+metadata/_edit_lock_ = true
+
+[node name="Human for Scale" parent="Lab" index="5" unique_id=937896779]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 0, -193.1734)
+visible = false
+metadata/_edit_lock_ = true
+
+[node name="Cab_001" parent="Lab" index="6" unique_id=1055493368]
+metadata/_edit_lock_ = true
+
+[node name="Cab_002" parent="Lab" index="7" unique_id=521319502]
+metadata/_edit_lock_ = true
+
+[node name="Cab_003" parent="Lab" index="8" unique_id=43666613]
+metadata/_edit_lock_ = true
+
+[node name="DividingWall" parent="Lab" index="9" unique_id=1343609498]
+metadata/_edit_lock_ = true
+
+[node name="Desks_001" parent="Lab" index="10" unique_id=604605705]
+metadata/_edit_lock_ = true
+
+[node name="Shelf" parent="Lab" index="11" unique_id=954340173]
+metadata/_edit_lock_ = true
+
+[node name="Beaker" parent="Lab" index="12" unique_id=811574466]
+metadata/_edit_lock_ = true
+
+[node name="Beakerfluid" parent="Lab" index="13" unique_id=1325813809]
+metadata/_edit_lock_ = true
+
+[node name="Beaker_002" parent="Lab" index="14" unique_id=362540213]
+metadata/_edit_lock_ = true
+
+[node name="Beakerfluid_002" parent="Lab" index="15" unique_id=1990656546]
+metadata/_edit_lock_ = true
+
+[node name="Beaker_001" parent="Lab" index="16" unique_id=949329052]
+metadata/_edit_lock_ = true
+
+[node name="Beaker_003" parent="Lab" index="17" unique_id=1643518285]
+metadata/_edit_lock_ = true
+
+[node name="Shelf_001" parent="Lab" index="18" unique_id=1825355513]
+metadata/_edit_lock_ = true
+
+[node name="Beakerfluid_001" parent="Lab" index="19" unique_id=161430280]
+metadata/_edit_lock_ = true
+
+[node name="Beaker_004" parent="Lab" index="20" unique_id=438537082]
+metadata/_edit_lock_ = true
+
+[node name="Beakerfluid_003" parent="Lab" index="21" unique_id=1706832747]
+metadata/_edit_lock_ = true
+
+[node name="Beaker_005" parent="Lab" index="22" unique_id=1975316936]
+metadata/_edit_lock_ = true
+
+[node name="Beaker_006" parent="Lab" index="23" unique_id=262686292]
+metadata/_edit_lock_ = true
+
+[node name="Shelf_002" parent="Lab" index="24" unique_id=1582119273]
+metadata/_edit_lock_ = true
+
+[node name="Beakerfluid_004" parent="Lab" index="25" unique_id=1659131727]
+metadata/_edit_lock_ = true
+
+[node name="Beaker_007" parent="Lab" index="26" unique_id=1231170946]
+metadata/_edit_lock_ = true
+
+[node name="Beakerfluid_005" parent="Lab" index="27" unique_id=1303686428]
+metadata/_edit_lock_ = true
+
+[node name="Beaker_008" parent="Lab" index="28" unique_id=419222528]
+metadata/_edit_lock_ = true
+
+[node name="Beaker_009" parent="Lab" index="29" unique_id=1860672029]
+metadata/_edit_lock_ = true
+
+[node name="Cab_004" parent="Lab" index="30" unique_id=2144046775]
+metadata/_edit_lock_ = true
+
+[node name="Cab_005" parent="Lab" index="31" unique_id=465835120]
+metadata/_edit_lock_ = true
+
+[node name="Shelf_003" parent="Lab" index="32" unique_id=1358404339]
+metadata/_edit_lock_ = true
+
+[node name="Desks_002" parent="Lab" index="33" unique_id=1489008683]
+metadata/_edit_lock_ = true
+
+[node name="Interactables" type="Node3D" parent="." unique_id=1333968982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.708408, 0, 2.1)
+
+[node name="LevelDoor2" parent="Interactables" unique_id=4278880 instance=ExtResource("2_na2yv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.06, 0, 0)
+
+[node name="LevelDoor3" parent="Interactables" unique_id=137186274 instance=ExtResource("2_na2yv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.159, 0, 0)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1335237676]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=2127477048]
+material = ExtResource("3_3swqn")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Test Camera" type="Camera3D" parent="." unique_id=1650226638]
+transform = Transform3D(1, 0, 0, 0, 0.9381342, 0.34627196, 0, -0.34627196, 0.9381342, -2.2478266, 3.6552248, 6.172174)
+script = ExtResource("4_ekcu4")
+distance = 30.0
+speed = 0.5
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1847898758]
+environment = SubResource("Environment_ueg30")
+
+[node name="PlayerModel" parent="." unique_id=338209959 instance=ExtResource("6_467kd")]
+transform = Transform3D(-4.3711385e-08, 0, 0.99999994, 0, 1, 0, -0.99999994, 0, -4.3711385e-08, -4.482439, 0.08718109, 2.1)
+
+[editable path="Lab"]

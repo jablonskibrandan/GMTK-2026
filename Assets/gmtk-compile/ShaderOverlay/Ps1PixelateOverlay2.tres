@@ -1,0 +1,20 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://beidsqjl7bn67"]
+
+[ext_resource type="Shader" uid="uid://b48vwltt1a85n" path="res://ShaderOverlay/Ps1PixelateOverlay2.gdshader" id="1_1knoo"]
+
+[resource]
+shader = ExtResource("1_1knoo")
+shader_parameter/exposure = 0.92400002014
+shader_parameter/contrast = 1.0290000251275
+shader_parameter/saturation = 0.800000038
+shader_parameter/enable_pixelate = true
+shader_parameter/pixel_factor = 4.50000019
+shader_parameter/enable_posterize = false
+shader_parameter/color_levels = 2.0
+shader_parameter/dither_strength = 0.7650000363375
+shader_parameter/chrom_aberration = 2.0
+shader_parameter/vignette_strength = 0.0
+shader_parameter/grain_strength = 0.442000020995
+shader_parameter/tint_color = Vector3(0.95, 1.03, 0.9)
+shader_parameter/tint_strength = 0.15
+shader_parameter/viewport_size_override = Vector2(0, 0)
