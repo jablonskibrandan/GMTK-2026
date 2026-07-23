@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clgth7xgojeso"
-path.s3tc="res://.godot/imported/Path_Baked_NORMAL_1024.png-1125259f2ac721066b6e58279301039e.s3tc.ctex"
+path.s3tc="res://.godot/imported/Path_Baked_NORMAL_1024.png-7c4b56185a4794d28a5f8ad13fc36e37.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/PathTXT/Path_Baked_NORMAL_1024.png"
-dest_files=["res://.godot/imported/Path_Baked_NORMAL_1024.png-1125259f2ac721066b6e58279301039e.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/PathTXT/Path_Baked_NORMAL_1024.png"
+dest_files=["res://.godot/imported/Path_Baked_NORMAL_1024.png-7c4b56185a4794d28a5f8ad13fc36e37.s3tc.ctex"]
 
 [params]
 

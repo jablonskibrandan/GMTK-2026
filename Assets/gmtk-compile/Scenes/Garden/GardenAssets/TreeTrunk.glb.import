@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://30jxsduxt6p7"
-path="res://.godot/imported/TreeTrunk.glb-c1d6e3a0ee368540f093672486cecdf2.scn"
+path="res://.godot/imported/TreeTrunk.glb-226c397f9bb699d9c204cff36dad793d.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/TreeTrunk.glb"
-dest_files=["res://.godot/imported/TreeTrunk.glb-c1d6e3a0ee368540f093672486cecdf2.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/TreeTrunk.glb"
+dest_files=["res://.godot/imported/TreeTrunk.glb-226c397f9bb699d9c204cff36dad793d.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dfk4swtjal5pf"
-path="res://.godot/imported/LiminalPillars.glb-c038a4f99ec5bd5c97f4298958f68f97.scn"
+path="res://.godot/imported/LiminalPillars.glb-a03b4a362cf3824ce03653334b7c1360.scn"
 
 [deps]
 
-source_file="res://Scenes/LiminalPillars/Assets/LiminalPillars.glb"
-dest_files=["res://.godot/imported/LiminalPillars.glb-c038a4f99ec5bd5c97f4298958f68f97.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/LiminalPillars/Assets/LiminalPillars.glb"
+dest_files=["res://.godot/imported/LiminalPillars.glb-a03b4a362cf3824ce03653334b7c1360.scn"]
 
 [params]
 

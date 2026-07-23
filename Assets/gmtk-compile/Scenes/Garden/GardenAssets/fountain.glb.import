@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bvmven76j5lip"
-path="res://.godot/imported/fountain.glb-8b086cb51533d1d56b0617f65e4f5421.scn"
+path="res://.godot/imported/fountain.glb-66f516b03c01f330c607f6299784e173.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/fountain.glb"
-dest_files=["res://.godot/imported/fountain.glb-8b086cb51533d1d56b0617f65e4f5421.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/fountain.glb"
+dest_files=["res://.godot/imported/fountain.glb-66f516b03c01f330c607f6299784e173.scn"]
 
 [params]
 

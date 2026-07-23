@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dm64cg05hxvrb"
-path="res://.godot/imported/Staircase_Baked_COMBINED_1024.png-57663ec07a557dfebc6a7a5189cb3b2b.ctex"
+path="res://.godot/imported/Staircase_Baked_COMBINED_1024.png-d492c731a90429aec0f67c23027a6525.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/staircaseTXT/Staircase_Baked_COMBINED_1024.png"
-dest_files=["res://.godot/imported/Staircase_Baked_COMBINED_1024.png-57663ec07a557dfebc6a7a5189cb3b2b.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/staircaseTXT/Staircase_Baked_COMBINED_1024.png"
+dest_files=["res://.godot/imported/Staircase_Baked_COMBINED_1024.png-d492c731a90429aec0f67c23027a6525.ctex"]
 
 [params]
 

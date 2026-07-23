@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bo6r0vn1p18wm"
-path="res://.godot/imported/HiddenPathGD.glb-1cbbfd0f56957e37439f3cfad86327ae.scn"
+path="res://.godot/imported/HiddenPathGD.glb-87fe0f34c65462a5dd65b76774bed0b9.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/HiddenPathGD.glb"
-dest_files=["res://.godot/imported/HiddenPathGD.glb-1cbbfd0f56957e37439f3cfad86327ae.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/HiddenPathGD.glb"
+dest_files=["res://.godot/imported/HiddenPathGD.glb-87fe0f34c65462a5dd65b76774bed0b9.scn"]
 
 [params]
 

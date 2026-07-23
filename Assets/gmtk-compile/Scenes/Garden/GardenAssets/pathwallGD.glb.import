@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://rpxnav03la1n"
-path="res://.godot/imported/pathwallGD.glb-4996608262b66c44b22f08593ce0a26d.scn"
+path="res://.godot/imported/pathwallGD.glb-4f7b15c8b77bfbdef54ec37d9eed1b57.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/pathwallGD.glb"
-dest_files=["res://.godot/imported/pathwallGD.glb-4996608262b66c44b22f08593ce0a26d.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/pathwallGD.glb"
+dest_files=["res://.godot/imported/pathwallGD.glb-4f7b15c8b77bfbdef54ec37d9eed1b57.scn"]
 
 [params]
 

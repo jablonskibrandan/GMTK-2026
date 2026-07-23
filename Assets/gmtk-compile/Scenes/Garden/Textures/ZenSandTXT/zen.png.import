@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://oyfjvwbvw2mv"
-path.s3tc="res://.godot/imported/zen.png-d0edd9fdf033cf2da6296a95e571b849.s3tc.ctex"
+path.s3tc="res://.godot/imported/zen.png-b5f520149446d9935fc7c4f44fe81adf.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/ZenSandTXT/zen.png"
-dest_files=["res://.godot/imported/zen.png-d0edd9fdf033cf2da6296a95e571b849.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/ZenSandTXT/zen.png"
+dest_files=["res://.godot/imported/zen.png-b5f520149446d9935fc7c4f44fe81adf.s3tc.ctex"]
 
 [params]
 

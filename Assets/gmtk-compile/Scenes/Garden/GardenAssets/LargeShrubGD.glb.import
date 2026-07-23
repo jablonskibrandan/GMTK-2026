@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dhcpv5lbvdmdp"
-path="res://.godot/imported/LargeShrubGD.glb-b7222e4b12c0d9014f09c6fe97b6dfbf.scn"
+path="res://.godot/imported/LargeShrubGD.glb-8c1a25cbfece84e0411b907a4bee59af.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/LargeShrubGD.glb"
-dest_files=["res://.godot/imported/LargeShrubGD.glb-b7222e4b12c0d9014f09c6fe97b6dfbf.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/LargeShrubGD.glb"
+dest_files=["res://.godot/imported/LargeShrubGD.glb-8c1a25cbfece84e0411b907a4bee59af.scn"]
 
 [params]
 

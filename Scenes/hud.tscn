@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://bl8nf0l0a1bl4"]
+
+[ext_resource type="Script" uid="uid://c17q6lyphdfi6" path="res://Scripts/UI/hud.gd" id="1_fccik"]
+[ext_resource type="FontFile" uid="uid://csu6nkgk2n2pv" path="res://Fonts/Aquire-BW0ox.otf" id="2_bjfho"]
+
+[node name="HUD" type="CanvasLayer" unique_id=932516837 node_paths=PackedStringArray("oxygen_bar", "oxygen_label", "health_bar", "health_label")]
+layer = 10
+script = ExtResource("1_fccik")
+oxygen_bar = NodePath("HUDRoot/MarginContainer/VBoxContainer/HBoxContainer/OxygenBar")
+oxygen_label = NodePath("HUDRoot/MarginContainer/VBoxContainer/HBoxContainer/OxygenLabel")
+health_bar = NodePath("HealthBar")
+health_label = NodePath("HUDRoot/MarginContainer/VBoxContainer/HBoxContainer2/HealthLabel")
+
+[node name="HUDRoot" type="Control" parent="." unique_id=1727492377]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="HUDRoot" unique_id=1874153775]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 32.0
+offset_right = 720.0
+offset_bottom = 100.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HUDRoot/MarginContainer" unique_id=1773053252]
+layout_mode = 2
+theme_override_constants/separation = 40
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="HUDRoot/MarginContainer/VBoxContainer" unique_id=1272175453]
+layout_mode = 2
+theme_override_constants/separation = 21
+
+[node name="HealthLabel" type="Label" parent="HUDRoot/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1750696042]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_bjfho")
+theme_override_font_sizes/font_size = 40
+text = "HEALTH"
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HUDRoot/MarginContainer/VBoxContainer" unique_id=1097130528]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="OxygenLabel" type="Label" parent="HUDRoot/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1156911612]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_bjfho")
+theme_override_font_sizes/font_size = 40
+text = "OXYGEN"
+vertical_alignment = 1
+
+[node name="OxygenBar" type="ProgressBar" parent="HUDRoot/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1781011908]
+custom_minimum_size = Vector2(500, 52)
+layout_mode = 2
+value = 100.0
+show_percentage = false
+
+[node name="Toast" type="Label" parent="HUDRoot" unique_id=72816228]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -21.5
+offset_top = -23.0
+offset_right = 21.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 24
+text = "Toast"
+
+[node name="HealthBar" type="ProgressBar" parent="." unique_id=583389818]
+custom_minimum_size = Vector2(500, 52)
+offset_left = 216.0
+offset_top = 32.0
+offset_right = 716.0
+offset_bottom = 84.0
+value = 100.0
+show_percentage = false

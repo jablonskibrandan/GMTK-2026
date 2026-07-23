@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4uvvet578icn"
-path.s3tc="res://.godot/imported/Ship.png-ad43602000c7c5a928e3df7a6fe4b39e.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ship.png-e5048e9419b2e6b1f18b33adc8b50cec.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scenes/ShipBridge/Bridge Assets/Ship.png"
-dest_files=["res://.godot/imported/Ship.png-ad43602000c7c5a928e3df7a6fe4b39e.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/ShipBridge/Bridge Assets/Ship.png"
+dest_files=["res://.godot/imported/Ship.png-e5048e9419b2e6b1f18b33adc8b50cec.s3tc.ctex"]
 
 [params]
 

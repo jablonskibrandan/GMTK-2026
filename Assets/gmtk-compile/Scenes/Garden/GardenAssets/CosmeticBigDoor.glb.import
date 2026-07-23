@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ybcvbgihawxv"
-path="res://.godot/imported/CosmeticBigDoor.glb-23ff0cefea410fa8668da2df8e5daf14.scn"
+path="res://.godot/imported/CosmeticBigDoor.glb-8c03c44daf0bfe4685603443b9584a28.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/CosmeticBigDoor.glb"
-dest_files=["res://.godot/imported/CosmeticBigDoor.glb-23ff0cefea410fa8668da2df8e5daf14.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/CosmeticBigDoor.glb"
+dest_files=["res://.godot/imported/CosmeticBigDoor.glb-8c03c44daf0bfe4685603443b9584a28.scn"]
 
 [params]
 

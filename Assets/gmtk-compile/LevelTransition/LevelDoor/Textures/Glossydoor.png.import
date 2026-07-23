@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctxqlckg5lcl6"
-path="res://.godot/imported/Glossydoor.png-bd345aa74c8cdb97e88b2fb1ab3d7256.ctex"
+path="res://.godot/imported/Glossydoor.png-3c67810c89eeac300cc5df76c9eebf80.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LevelTransition/LevelDoor/Textures/Glossydoor.png"
-dest_files=["res://.godot/imported/Glossydoor.png-bd345aa74c8cdb97e88b2fb1ab3d7256.ctex"]
+source_file="res://Assets/gmtk-compile/LevelTransition/LevelDoor/Textures/Glossydoor.png"
+dest_files=["res://.godot/imported/Glossydoor.png-3c67810c89eeac300cc5df76c9eebf80.ctex"]
 
 [params]
 

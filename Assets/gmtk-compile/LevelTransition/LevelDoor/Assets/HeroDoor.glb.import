@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dbs78kbnno1cc"
-path="res://.godot/imported/HeroDoor.glb-08c5688870e85ffc53af11b102804156.scn"
+path="res://.godot/imported/HeroDoor.glb-ad8c5e405733b5d2ebac8893708a02c3.scn"
 
 [deps]
 
-source_file="res://LevelTransition/LevelDoor/Assets/HeroDoor.glb"
-dest_files=["res://.godot/imported/HeroDoor.glb-08c5688870e85ffc53af11b102804156.scn"]
+source_file="res://Assets/gmtk-compile/LevelTransition/LevelDoor/Assets/HeroDoor.glb"
+dest_files=["res://.godot/imported/HeroDoor.glb-ad8c5e405733b5d2ebac8893708a02c3.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b456cp55ud7fb"
-path.s3tc="res://.godot/imported/Exit.png-a1a9f6d67edae91c543ca25fd0aa08d1.s3tc.ctex"
+path.s3tc="res://.godot/imported/Exit.png-e288f838de5912d4760b1a7faa7c84e6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/Exit.png"
-dest_files=["res://.godot/imported/Exit.png-a1a9f6d67edae91c543ca25fd0aa08d1.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/Exit.png"
+dest_files=["res://.godot/imported/Exit.png-e288f838de5912d4760b1a7faa7c84e6.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://oxtfq2yooi8m"
-path.s3tc="res://.godot/imported/RevTXT.png-e0dfed39e5293f02e6d739783f1aadee.s3tc.ctex"
+path.s3tc="res://.godot/imported/RevTXT.png-f1c35fc41aab53e0e23d187b123602b9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scenes/RevolvingHallway/Assets/RevTXT.png"
-dest_files=["res://.godot/imported/RevTXT.png-e0dfed39e5293f02e6d739783f1aadee.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/RevolvingHallway/Assets/RevTXT.png"
+dest_files=["res://.godot/imported/RevTXT.png-f1c35fc41aab53e0e23d187b123602b9.s3tc.ctex"]
 
 [params]
 

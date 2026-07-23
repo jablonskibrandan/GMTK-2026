@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://su5u0wlnvk32"
-path="res://.godot/imported/conrete_railing_Baked_AO_1024.png-10a8d5caf25cfdd2741e73590c0419c2.ctex"
+path="res://.godot/imported/conrete_railing_Baked_AO_1024.png-2fe67f609dde0abd4d0272f523941d9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/RailingTXT/conrete_railing_Baked_AO_1024.png"
-dest_files=["res://.godot/imported/conrete_railing_Baked_AO_1024.png-10a8d5caf25cfdd2741e73590c0419c2.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/RailingTXT/conrete_railing_Baked_AO_1024.png"
+dest_files=["res://.godot/imported/conrete_railing_Baked_AO_1024.png-2fe67f609dde0abd4d0272f523941d9e.ctex"]
 
 [params]
 

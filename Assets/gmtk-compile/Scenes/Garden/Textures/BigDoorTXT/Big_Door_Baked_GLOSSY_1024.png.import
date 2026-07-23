@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bawi3s7gwwq52"
-path="res://.godot/imported/Big_Door_Baked_GLOSSY_1024.png-bf4acf85763279dd09ab159b70f9c52d.ctex"
+path="res://.godot/imported/Big_Door_Baked_GLOSSY_1024.png-8c9ea9a4d690317f39a838bb2554b77c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/BigDoorTXT/Big_Door_Baked_GLOSSY_1024.png"
-dest_files=["res://.godot/imported/Big_Door_Baked_GLOSSY_1024.png-bf4acf85763279dd09ab159b70f9c52d.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/BigDoorTXT/Big_Door_Baked_GLOSSY_1024.png"
+dest_files=["res://.godot/imported/Big_Door_Baked_GLOSSY_1024.png-8c9ea9a4d690317f39a838bb2554b77c.ctex"]
 
 [params]
 

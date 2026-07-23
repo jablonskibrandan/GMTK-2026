@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://kfqa1swrver8"
-path="res://.godot/imported/MaintainenceRoom.glb-b90a5fbaf90732745b4b1411d055e4d0.scn"
+path="res://.godot/imported/MaintainenceRoom.glb-7cd4f812c72571033cf99292902b5b02.scn"
 
 [deps]
 
-source_file="res://Scenes/MaintainenceRoom/Assets/MaintainenceRoom.glb"
-dest_files=["res://.godot/imported/MaintainenceRoom.glb-b90a5fbaf90732745b4b1411d055e4d0.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/MaintainenceRoom/Assets/MaintainenceRoom.glb"
+dest_files=["res://.godot/imported/MaintainenceRoom.glb-7cd4f812c72571033cf99292902b5b02.scn"]
 
 [params]
 

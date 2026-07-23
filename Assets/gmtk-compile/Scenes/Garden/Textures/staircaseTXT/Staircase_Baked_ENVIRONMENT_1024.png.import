@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cn3c4j6ma3tj"
-path="res://.godot/imported/Staircase_Baked_ENVIRONMENT_1024.png-523545a8953150845e3b07a52be56032.ctex"
+path="res://.godot/imported/Staircase_Baked_ENVIRONMENT_1024.png-e9d068b1edf88c071b7429aa50a9f3ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/staircaseTXT/Staircase_Baked_ENVIRONMENT_1024.png"
-dest_files=["res://.godot/imported/Staircase_Baked_ENVIRONMENT_1024.png-523545a8953150845e3b07a52be56032.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/staircaseTXT/Staircase_Baked_ENVIRONMENT_1024.png"
+dest_files=["res://.godot/imported/Staircase_Baked_ENVIRONMENT_1024.png-e9d068b1edf88c071b7429aa50a9f3ae.ctex"]
 
 [params]
 

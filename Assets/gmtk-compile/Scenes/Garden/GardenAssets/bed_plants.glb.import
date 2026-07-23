@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bmk4jv1xovaj5"
-path="res://.godot/imported/bed_plants.glb-712a40ec1c8324576232d6a01ce5c3b0.scn"
+path="res://.godot/imported/bed_plants.glb-c1b84e397501e7de7675172a4ad42333.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/bed_plants.glb"
-dest_files=["res://.godot/imported/bed_plants.glb-712a40ec1c8324576232d6a01ce5c3b0.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/bed_plants.glb"
+dest_files=["res://.godot/imported/bed_plants.glb-c1b84e397501e7de7675172a4ad42333.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcqs1w45euopx"
-path.s3tc="res://.godot/imported/Staircase_Baked_ROUGHNESS_1024.png-1f1917a2c5bb7d4ce54a819e265344e0.s3tc.ctex"
+path.s3tc="res://.godot/imported/Staircase_Baked_ROUGHNESS_1024.png-fb32f1b5b8ec66d96c98cc87a67fca0e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/staircaseTXT/Staircase_Baked_ROUGHNESS_1024.png"
-dest_files=["res://.godot/imported/Staircase_Baked_ROUGHNESS_1024.png-1f1917a2c5bb7d4ce54a819e265344e0.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/staircaseTXT/Staircase_Baked_ROUGHNESS_1024.png"
+dest_files=["res://.godot/imported/Staircase_Baked_ROUGHNESS_1024.png-fb32f1b5b8ec66d96c98cc87a67fca0e.s3tc.ctex"]
 
 [params]
 

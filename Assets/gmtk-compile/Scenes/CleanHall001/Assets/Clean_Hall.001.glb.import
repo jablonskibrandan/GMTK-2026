@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://qpt60ivcvrlb"
-path="res://.godot/imported/Clean_Hall.001.glb-c29d9af96b108ce0865fd4b2ecbf825e.scn"
+path="res://.godot/imported/Clean_Hall.001.glb-80be66ba06c49f02f8ea7a0010e54ec8.scn"
 
 [deps]
 
-source_file="res://Scenes/CleanHall001/Assets/Clean_Hall.001.glb"
-dest_files=["res://.godot/imported/Clean_Hall.001.glb-c29d9af96b108ce0865fd4b2ecbf825e.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/CleanHall001/Assets/Clean_Hall.001.glb"
+dest_files=["res://.godot/imported/Clean_Hall.001.glb-80be66ba06c49f02f8ea7a0010e54ec8.scn"]
 
 [params]
 

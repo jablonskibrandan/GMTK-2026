@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqacvd00nvfg8"
-path.s3tc="res://.godot/imported/Path.png-8dd6f7acc7312a5d40cc9b484960c9e9.s3tc.ctex"
+path.s3tc="res://.godot/imported/Path.png-27e117fa375186d1c77e9f3d404ab255.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/HiddenPathTXT/Path.png"
-dest_files=["res://.godot/imported/Path.png-8dd6f7acc7312a5d40cc9b484960c9e9.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/HiddenPathTXT/Path.png"
+dest_files=["res://.godot/imported/Path.png-27e117fa375186d1c77e9f3d404ab255.s3tc.ctex"]
 
 [params]
 

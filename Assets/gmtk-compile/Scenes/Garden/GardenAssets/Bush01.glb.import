@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://twfw8tyemsyq"
-path="res://.godot/imported/Bush01.glb-0bd50444131141021e0af0b66b7dc0a2.scn"
+path="res://.godot/imported/Bush01.glb-9ac711b99f6ddb0a9d119da7e1a21f44.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/Bush01.glb"
-dest_files=["res://.godot/imported/Bush01.glb-0bd50444131141021e0af0b66b7dc0a2.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/Bush01.glb"
+dest_files=["res://.godot/imported/Bush01.glb-9ac711b99f6ddb0a9d119da7e1a21f44.scn"]
 
 [params]
 

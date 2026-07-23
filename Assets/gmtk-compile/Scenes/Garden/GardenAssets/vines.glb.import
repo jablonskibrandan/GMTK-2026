@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dncodbrcicdgb"
-path="res://.godot/imported/vines.glb-fd842894cc214eaa859280154630f49b.scn"
+path="res://.godot/imported/vines.glb-f13091bc8d6bffd646cbbe65863834cf.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/vines.glb"
-dest_files=["res://.godot/imported/vines.glb-fd842894cc214eaa859280154630f49b.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/vines.glb"
+dest_files=["res://.godot/imported/vines.glb-f13091bc8d6bffd646cbbe65863834cf.scn"]
 
 [params]
 

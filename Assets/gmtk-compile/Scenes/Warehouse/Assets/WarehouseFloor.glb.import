@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c83jvquagvhnh"
-path="res://.godot/imported/WarehouseFloor.glb-3ecc78a5cc6adaf558d273eace85ceb7.scn"
+path="res://.godot/imported/WarehouseFloor.glb-b8ed7a741ada90c03cd2ffaa53376ca5.scn"
 
 [deps]
 
-source_file="res://Scenes/Warehouse/Assets/WarehouseFloor.glb"
-dest_files=["res://.godot/imported/WarehouseFloor.glb-3ecc78a5cc6adaf558d273eace85ceb7.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Warehouse/Assets/WarehouseFloor.glb"
+dest_files=["res://.godot/imported/WarehouseFloor.glb-b8ed7a741ada90c03cd2ffaa53376ca5.scn"]
 
 [params]
 

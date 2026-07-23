@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cqb8uiyc8i34"
-path="res://.godot/imported/antenn.glb-056d3577a4bc2ae8cc970a3373c70df2.scn"
+path="res://.godot/imported/antenn.glb-349f35650151548bf57b4b0785a8a185.scn"
 
 [deps]
 
-source_file="res://Scenes/ShipBridge/Bridge Assets/antenn.glb"
-dest_files=["res://.godot/imported/antenn.glb-056d3577a4bc2ae8cc970a3373c70df2.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/ShipBridge/Bridge Assets/antenn.glb"
+dest_files=["res://.godot/imported/antenn.glb-349f35650151548bf57b4b0785a8a185.scn"]
 
 [params]
 

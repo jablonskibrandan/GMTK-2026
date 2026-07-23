@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://jtdflwhgeqjl"
-path="res://.godot/imported/small_wallGDglb.glb-9653e755862923c8491302af4083ab5b.scn"
+path="res://.godot/imported/small_wallGDglb.glb-f576c154c1515dcd479a0dca1a8e6fa6.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/small_wallGDglb.glb"
-dest_files=["res://.godot/imported/small_wallGDglb.glb-9653e755862923c8491302af4083ab5b.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/small_wallGDglb.glb"
+dest_files=["res://.godot/imported/small_wallGDglb.glb-f576c154c1515dcd479a0dca1a8e6fa6.scn"]
 
 [params]
 

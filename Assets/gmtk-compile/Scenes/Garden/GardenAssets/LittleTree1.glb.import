@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ehohm0c2sqfi"
-path="res://.godot/imported/LittleTree1.glb-78f205c2bd817868b2af7c64f9e945fd.scn"
+path="res://.godot/imported/LittleTree1.glb-b985404cffc73932a8817b056aab432d.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/LittleTree1.glb"
-dest_files=["res://.godot/imported/LittleTree1.glb-78f205c2bd817868b2af7c64f9e945fd.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/LittleTree1.glb"
+dest_files=["res://.godot/imported/LittleTree1.glb-b985404cffc73932a8817b056aab432d.scn"]
 
 [params]
 

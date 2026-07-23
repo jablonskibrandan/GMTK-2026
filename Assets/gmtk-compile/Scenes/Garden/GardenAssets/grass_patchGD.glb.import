@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dkcav20wfblq3"
-path="res://.godot/imported/grass_patchGD.glb-6547a972983b55ef97206010a2ea25f4.scn"
+path="res://.godot/imported/grass_patchGD.glb-20ba571c8c214aeee6075a3fac1eb75e.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/grass_patchGD.glb"
-dest_files=["res://.godot/imported/grass_patchGD.glb-6547a972983b55ef97206010a2ea25f4.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/grass_patchGD.glb"
+dest_files=["res://.godot/imported/grass_patchGD.glb-20ba571c8c214aeee6075a3fac1eb75e.scn"]
 
 [params]
 

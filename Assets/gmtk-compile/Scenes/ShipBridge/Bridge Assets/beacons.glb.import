@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dr7bc8ypkq52c"
-path="res://.godot/imported/beacons.glb-546d9b53e4cb417e73fa68d506534168.scn"
+path="res://.godot/imported/beacons.glb-f98225d63608ad9da6e3465b7276199a.scn"
 
 [deps]
 
-source_file="res://Scenes/ShipBridge/Bridge Assets/beacons.glb"
-dest_files=["res://.godot/imported/beacons.glb-546d9b53e4cb417e73fa68d506534168.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/ShipBridge/Bridge Assets/beacons.glb"
+dest_files=["res://.godot/imported/beacons.glb-f98225d63608ad9da6e3465b7276199a.scn"]
 
 [params]
 

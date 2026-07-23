@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dfkfx4k8bo72q"
-path="res://.godot/imported/spookytreeGD.glb-e50e4d88220f803deea1101803f2cba5.scn"
+path="res://.godot/imported/spookytreeGD.glb-ee91d85df091258e517be5dcb6599147.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/spookytreeGD.glb"
-dest_files=["res://.godot/imported/spookytreeGD.glb-e50e4d88220f803deea1101803f2cba5.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/spookytreeGD.glb"
+dest_files=["res://.godot/imported/spookytreeGD.glb-ee91d85df091258e517be5dcb6599147.scn"]
 
 [params]
 

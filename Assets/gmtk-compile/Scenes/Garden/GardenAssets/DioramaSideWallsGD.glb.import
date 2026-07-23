@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://tl61tkuhjmtu"
-path="res://.godot/imported/DioramaSideWallsGD.glb-130e576fb5768da94a68be46b44105a6.scn"
+path="res://.godot/imported/DioramaSideWallsGD.glb-7e90679f73ffa7f6ceb6784f99467672.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/DioramaSideWallsGD.glb"
-dest_files=["res://.godot/imported/DioramaSideWallsGD.glb-130e576fb5768da94a68be46b44105a6.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/DioramaSideWallsGD.glb"
+dest_files=["res://.godot/imported/DioramaSideWallsGD.glb-7e90679f73ffa7f6ceb6784f99467672.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8tf4whmcb0lp"
-path.s3tc="res://.godot/imported/Fountain_Baked_NORMAL_1024.png-a4565964c125617cb77f9a40a9293961.s3tc.ctex"
+path.s3tc="res://.godot/imported/Fountain_Baked_NORMAL_1024.png-0b76f524053fcc049257bc81750b78cd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/FountainTXT/Fountain_Baked_NORMAL_1024.png"
-dest_files=["res://.godot/imported/Fountain_Baked_NORMAL_1024.png-a4565964c125617cb77f9a40a9293961.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/FountainTXT/Fountain_Baked_NORMAL_1024.png"
+dest_files=["res://.godot/imported/Fountain_Baked_NORMAL_1024.png-0b76f524053fcc049257bc81750b78cd.s3tc.ctex"]
 
 [params]
 

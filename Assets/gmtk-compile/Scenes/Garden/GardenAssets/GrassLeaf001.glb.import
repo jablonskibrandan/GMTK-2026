@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cxx2tksxmcl8i"
-path="res://.godot/imported/GrassLeaf001.glb-f666834e1194d424753263920a9fe4bc.scn"
+path="res://.godot/imported/GrassLeaf001.glb-361a6caab2fa0672f078270995c43bd8.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/GrassLeaf001.glb"
-dest_files=["res://.godot/imported/GrassLeaf001.glb-f666834e1194d424753263920a9fe4bc.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/GrassLeaf001.glb"
+dest_files=["res://.godot/imported/GrassLeaf001.glb-361a6caab2fa0672f078270995c43bd8.scn"]
 
 [params]
 

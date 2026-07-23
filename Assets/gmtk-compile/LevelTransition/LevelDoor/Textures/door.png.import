@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brtmw6wx076st"
-path.s3tc="res://.godot/imported/door.png-22794eb1da8384f6717d57e034a59a0a.s3tc.ctex"
+path.s3tc="res://.godot/imported/door.png-16b0f0dbc32eb7c27c4cbe9b37327bd0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://LevelTransition/LevelDoor/Textures/door.png"
-dest_files=["res://.godot/imported/door.png-22794eb1da8384f6717d57e034a59a0a.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/LevelTransition/LevelDoor/Textures/door.png"
+dest_files=["res://.godot/imported/door.png-16b0f0dbc32eb7c27c4cbe9b37327bd0.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://5qloq6706s8g"
-path="res://.godot/imported/Hallway2.glb-1e7a6b4abdd28b03b37d657db8bdf4fd.scn"
+path="res://.godot/imported/Hallway2.glb-a3326fb177bca2f807785d1366abcd21.scn"
 
 [deps]
 
-source_file="res://Scenes/CleanHallway2/Assets/Hallway2.glb"
-dest_files=["res://.godot/imported/Hallway2.glb-1e7a6b4abdd28b03b37d657db8bdf4fd.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/CleanHallway2/Assets/Hallway2.glb"
+dest_files=["res://.godot/imported/Hallway2.glb-a3326fb177bca2f807785d1366abcd21.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cattv23r4n4ha"
-path="res://.godot/imported/WarehouseProper.glb-776f78497c79564067cba90953fc6706.scn"
+path="res://.godot/imported/WarehouseProper.glb-ccd8875a8e8fb8eae27781e7b7f92581.scn"
 
 [deps]
 
-source_file="res://Scenes/Warehouse/Assets/WarehouseProper.glb"
-dest_files=["res://.godot/imported/WarehouseProper.glb-776f78497c79564067cba90953fc6706.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Warehouse/Assets/WarehouseProper.glb"
+dest_files=["res://.godot/imported/WarehouseProper.glb-ccd8875a8e8fb8eae27781e7b7f92581.scn"]
 
 [params]
 

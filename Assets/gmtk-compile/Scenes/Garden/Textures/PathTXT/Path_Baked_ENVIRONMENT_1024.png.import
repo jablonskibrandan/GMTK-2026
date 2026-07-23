@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5s7b4kbmfuct"
-path="res://.godot/imported/Path_Baked_ENVIRONMENT_1024.png-2dcee9567f0aa87fa44ddff6ef75eb15.ctex"
+path="res://.godot/imported/Path_Baked_ENVIRONMENT_1024.png-34c1a71476a3428a19dda9383aeef18f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/PathTXT/Path_Baked_ENVIRONMENT_1024.png"
-dest_files=["res://.godot/imported/Path_Baked_ENVIRONMENT_1024.png-2dcee9567f0aa87fa44ddff6ef75eb15.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/PathTXT/Path_Baked_ENVIRONMENT_1024.png"
+dest_files=["res://.godot/imported/Path_Baked_ENVIRONMENT_1024.png-34c1a71476a3428a19dda9383aeef18f.ctex"]
 
 [params]
 

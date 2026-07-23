@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bfi33dvct3bi4"
-path="res://.godot/imported/BlackBox.glb-9655a28dc75f248fbde08f72a14286de.scn"
+path="res://.godot/imported/BlackBox.glb-5e0add0cf79f3b2642495e0ba36e6eef.scn"
 
 [deps]
 
-source_file="res://Scenes/Catwalk/Assets/BlackBox.glb"
-dest_files=["res://.godot/imported/BlackBox.glb-9655a28dc75f248fbde08f72a14286de.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Catwalk/Assets/BlackBox.glb"
+dest_files=["res://.godot/imported/BlackBox.glb-5e0add0cf79f3b2642495e0ba36e6eef.scn"]
 
 [params]
 

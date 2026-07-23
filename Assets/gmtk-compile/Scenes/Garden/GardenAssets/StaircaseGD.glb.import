@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://nlgeoc6rbekk"
-path="res://.godot/imported/StaircaseGD.glb-70c8e02c9cc3a5f66ac52c945ed3d73b.scn"
+path="res://.godot/imported/StaircaseGD.glb-9b5fa18e6f7a7ec39e870eb9dd905a0e.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/StaircaseGD.glb"
-dest_files=["res://.godot/imported/StaircaseGD.glb-70c8e02c9cc3a5f66ac52c945ed3d73b.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/StaircaseGD.glb"
+dest_files=["res://.godot/imported/StaircaseGD.glb-9b5fa18e6f7a7ec39e870eb9dd905a0e.scn"]
 
 [params]
 

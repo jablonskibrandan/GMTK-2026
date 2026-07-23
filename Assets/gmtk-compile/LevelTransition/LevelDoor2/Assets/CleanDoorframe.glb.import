@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dapwt2scl8spw"
-path="res://.godot/imported/CleanDoorframe.glb-2bc61f37eae178aa18d56c435612aef1.scn"
+path="res://.godot/imported/CleanDoorframe.glb-8f23330a7c3efd07b1b4a281496eb685.scn"
 
 [deps]
 
-source_file="res://LevelTransition/LevelDoor2/Assets/CleanDoorframe.glb"
-dest_files=["res://.godot/imported/CleanDoorframe.glb-2bc61f37eae178aa18d56c435612aef1.scn"]
+source_file="res://Assets/gmtk-compile/LevelTransition/LevelDoor2/Assets/CleanDoorframe.glb"
+dest_files=["res://.godot/imported/CleanDoorframe.glb-8f23330a7c3efd07b1b4a281496eb685.scn"]
 
 [params]
 

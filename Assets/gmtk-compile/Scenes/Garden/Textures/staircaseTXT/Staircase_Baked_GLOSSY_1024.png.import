@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://43deyomkhtpb"
-path.s3tc="res://.godot/imported/Staircase_Baked_GLOSSY_1024.png-2de99fb6ccfb4aa84c38aa6ebd264362.s3tc.ctex"
+path.s3tc="res://.godot/imported/Staircase_Baked_GLOSSY_1024.png-07d392e0fddc4c0d66bbe890866c6574.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/staircaseTXT/Staircase_Baked_GLOSSY_1024.png"
-dest_files=["res://.godot/imported/Staircase_Baked_GLOSSY_1024.png-2de99fb6ccfb4aa84c38aa6ebd264362.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/staircaseTXT/Staircase_Baked_GLOSSY_1024.png"
+dest_files=["res://.godot/imported/Staircase_Baked_GLOSSY_1024.png-07d392e0fddc4c0d66bbe890866c6574.s3tc.ctex"]
 
 [params]
 

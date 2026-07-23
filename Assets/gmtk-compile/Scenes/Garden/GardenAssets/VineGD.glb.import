@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b8yx41gvcf4uu"
-path="res://.godot/imported/VineGD.glb-14ea0e8b199376c3b8442ef99cda654a.scn"
+path="res://.godot/imported/VineGD.glb-a85f776885c9eb846bb97ae1fab5a5eb.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/VineGD.glb"
-dest_files=["res://.godot/imported/VineGD.glb-14ea0e8b199376c3b8442ef99cda654a.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/VineGD.glb"
+dest_files=["res://.godot/imported/VineGD.glb-a85f776885c9eb846bb97ae1fab5a5eb.scn"]
 
 [params]
 

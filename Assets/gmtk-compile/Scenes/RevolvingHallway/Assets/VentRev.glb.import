@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://feifeb4qql3a"
-path="res://.godot/imported/VentRev.glb-0333ef19d0241b069ee272e8ab13975a.scn"
+path="res://.godot/imported/VentRev.glb-0f0abda37440550328737e78742900da.scn"
 
 [deps]
 
-source_file="res://Scenes/RevolvingHallway/Assets/VentRev.glb"
-dest_files=["res://.godot/imported/VentRev.glb-0333ef19d0241b069ee272e8ab13975a.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/RevolvingHallway/Assets/VentRev.glb"
+dest_files=["res://.godot/imported/VentRev.glb-0f0abda37440550328737e78742900da.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://wn1a0574j711"
-path="res://.godot/imported/Catwalk.glb-bfbaa4e33a005affdec759f5c722f398.scn"
+path="res://.godot/imported/Catwalk.glb-3539c924b8c956348f19c0037f148e83.scn"
 
 [deps]
 
-source_file="res://Scenes/Catwalk/Assets/Catwalk.glb"
-dest_files=["res://.godot/imported/Catwalk.glb-bfbaa4e33a005affdec759f5c722f398.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Catwalk/Assets/Catwalk.glb"
+dest_files=["res://.godot/imported/Catwalk.glb-3539c924b8c956348f19c0037f148e83.scn"]
 
 [params]
 

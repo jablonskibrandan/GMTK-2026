@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bgfet43wtxxmd"
-path="res://.godot/imported/exitdoor.glb-fefec89678d5c4346ea4fc5f62009929.scn"
+path="res://.godot/imported/exitdoor.glb-f71b508e66faad5f4af0df382cb438b9.scn"
 
 [deps]
 
-source_file="res://Scenes/Garden/GardenAssets/exitdoor.glb"
-dest_files=["res://.godot/imported/exitdoor.glb-fefec89678d5c4346ea4fc5f62009929.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/GardenAssets/exitdoor.glb"
+dest_files=["res://.godot/imported/exitdoor.glb-f71b508e66faad5f4af0df382cb438b9.scn"]
 
 [params]
 

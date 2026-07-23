@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmdrtbsbjtw3i"
-path="res://.godot/imported/Rev.glb-f2ffa0e059ec5ddba1d7b1b948c49c7f.scn"
+path="res://.godot/imported/Rev.glb-691d231186ad90be6619277cd1d38b4b.scn"
 
 [deps]
 
-source_file="res://Scenes/RevolvingHallway/Assets/Rev.glb"
-dest_files=["res://.godot/imported/Rev.glb-f2ffa0e059ec5ddba1d7b1b948c49c7f.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/RevolvingHallway/Assets/Rev.glb"
+dest_files=["res://.godot/imported/Rev.glb-691d231186ad90be6619277cd1d38b4b.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://l5vm2505h4pa"
-path.s3tc="res://.godot/imported/Big_Door_Baked_DIFFUSE_1024.png-a6b09eebde7cf5ce01eb94da0a2fe6c3.s3tc.ctex"
+path.s3tc="res://.godot/imported/Big_Door_Baked_DIFFUSE_1024.png-e5b76f26eec56a96ada686b50d5d4673.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scenes/Garden/Textures/BigDoorTXT/Big_Door_Baked_DIFFUSE_1024.png"
-dest_files=["res://.godot/imported/Big_Door_Baked_DIFFUSE_1024.png-a6b09eebde7cf5ce01eb94da0a2fe6c3.s3tc.ctex"]
+source_file="res://Assets/gmtk-compile/Scenes/Garden/Textures/BigDoorTXT/Big_Door_Baked_DIFFUSE_1024.png"
+dest_files=["res://.godot/imported/Big_Door_Baked_DIFFUSE_1024.png-e5b76f26eec56a96ada686b50d5d4673.s3tc.ctex"]
 
 [params]
 

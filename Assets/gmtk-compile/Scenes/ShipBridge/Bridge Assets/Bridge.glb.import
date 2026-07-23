@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://byiksycu6s3d7"
-path="res://.godot/imported/Bridge.glb-ddbcdcbc883708de0caec73b2370e935.scn"
+path="res://.godot/imported/Bridge.glb-84fdac4896a457bcabd424462ff610b1.scn"
 
 [deps]
 
-source_file="res://Scenes/ShipBridge/Bridge Assets/Bridge.glb"
-dest_files=["res://.godot/imported/Bridge.glb-ddbcdcbc883708de0caec73b2370e935.scn"]
+source_file="res://Assets/gmtk-compile/Scenes/ShipBridge/Bridge Assets/Bridge.glb"
+dest_files=["res://.godot/imported/Bridge.glb-84fdac4896a457bcabd424462ff610b1.scn"]
 
 [params]
 

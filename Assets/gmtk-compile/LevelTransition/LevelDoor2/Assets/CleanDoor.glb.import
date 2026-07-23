@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ct0olcllc8uc"
-path="res://.godot/imported/CleanDoor.glb-e6b5f939dc12339431cac7ef37261a61.scn"
+path="res://.godot/imported/CleanDoor.glb-cc61c4efb53ae245df120f129c3d183b.scn"
 
 [deps]
 
-source_file="res://LevelTransition/LevelDoor2/Assets/CleanDoor.glb"
-dest_files=["res://.godot/imported/CleanDoor.glb-e6b5f939dc12339431cac7ef37261a61.scn"]
+source_file="res://Assets/gmtk-compile/LevelTransition/LevelDoor2/Assets/CleanDoor.glb"
+dest_files=["res://.godot/imported/CleanDoor.glb-cc61c4efb53ae245df120f129c3d183b.scn"]
 
 [params]
 
