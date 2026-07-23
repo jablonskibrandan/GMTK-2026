@@ -24,7 +24,7 @@ func _process(_delta: float):
 				Global.inHouse = 0
 				player.position.z = 0
 	else:
-		textLabel.hide()
+		#textLabel.hide()
 		Global.touchingDoor = 0
 		
 	if Global.inHouse == 1:
