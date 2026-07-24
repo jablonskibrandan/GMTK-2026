@@ -2,11 +2,11 @@ extends MeshInstance3D
 
 var mat = StandardMaterial3D
 
-@onready var player := $"../../CharacterBody3D"
-@onready var textLabel := %Toast
+#@onready var player := $"../../CharacterBody3D"
+#@onready var textLabel := %Toast
 
-func _ready():
-	mat = get_active_material(0)
+#func _ready():
+#	mat = get_active_material(0)
 
 			
 #func _process(_delta: float):

@@ -67,6 +67,6 @@ bones/39/rotation = Quaternion(-5.122982e-08, 0.999998, 0.0020556154, 2.990763e-
 libraries/idle = SubResource("AnimationLibrary_lfi8y")
 libraries/jump = SubResource("AnimationLibrary_vhqak")
 libraries/running = SubResource("AnimationLibrary_knpko")
-speed_scale = 1.375
+speed_scale = 2.171
 
 [editable path="Root/Character"]

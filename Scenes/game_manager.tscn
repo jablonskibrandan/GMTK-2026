@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ycq62gijkdic"]
+
+[ext_resource type="Script" uid="uid://by8hp8y0tcpge" path="res://Scripts/Gameplay/game_manager.gd" id="1_oj352"]
+
+[node name="GameManager" type="Node" unique_id=1332403508 node_paths=PackedStringArray("oxygen", "player_health")]
+script = ExtResource("1_oj352")
+oxygen = NodePath("")
+player_health = NodePath("")

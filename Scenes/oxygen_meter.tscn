@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://8togjjvgnikj"]
+
+[ext_resource type="Script" uid="uid://blsf2p5nbpea7" path="res://Scripts/Gameplay/oxygen_meter.gd" id="1_vo0df"]
+
+[node name="OxygenMeter" type="Node" unique_id=693953643]
+script = ExtResource("1_vo0df")
+drain_per_second = 0.2
